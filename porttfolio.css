@@ -100,7 +100,12 @@ margin-right: 5px;
 }
 
 /* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
 
+
+}
 
 /* main section  css style */
 .section {
@@ -121,6 +126,56 @@ margin: 130px;
 }
 
 .me {
+    color: var(--dark-03, #757575);
+text-align: center;
+
+font-size: 18px;
+
+font-weight: 400;
+line-height: 30px;
+}
+/* div section in section */
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.h2 {
+    text-align: center;
+    color: #757575;
+
+
+font-size: 20px;
+
+font-weight: 400;
+line-height: 30px;
+}
+.pera {
+    color: #757575;
+text-align: center;
+
+font-size: 20px;
+
+font-weight: 400;
+line-height: 30px;
+}
+
+/* id section */
+
+.bigu {
+    color: var(--dark-01, #181818);
+    text-align: center;
+    
+    font-size: 35px;
+    
+    font-weight: 700;
+  
+
+}
+#apen {
+    padding: 30px 150px;
+
     color: var(--dark-03, #757575);
 text-align: center;
 
