@@ -4,6 +4,7 @@ nav {
     display: flex;
     text-align: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 
 /* common shared style */
@@ -26,7 +27,7 @@ line-height: normal;
     color: #FD6E0A;
 
 }
-
+/* nav related style css */
 nav > ul {
     display: flex;
     text-align: center;
@@ -43,7 +44,7 @@ nav a {
     text-decoration: none;
     color: var(--dark-02, #474747);
 }
-
+/* button related css style*/
 .button {
     border-radius: 5px;
 background: #FD6E0A;
@@ -53,4 +54,26 @@ font-size: 20px;
 color: var(--white-color, #FFF);
 padding: 18 px 30 px;
 font-weight: 700;
+}
+
+/* header related style css */
+.head { 
+    background: #FFF8F3;
+}
+
+/* banner section div */
+
+.banner {
+
+    padding: 30px 35px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+/* img section css style */
+
+.img {
+
+    width: 400px;
+
 }
