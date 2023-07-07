@@ -1,0 +1,56 @@
+/* nav related css style */
+
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+/* common shared style */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.arfan {
+    color: #181818;
+font-family: Open Sans;
+
+font-style: normal;
+
+line-height: normal;
+}
+
+.hire {
+
+    color: #FD6E0A;
+
+}
+
+nav > ul {
+    display: flex;
+    text-align: center;
+    
+}
+
+nav li { 
+
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--dark-02, #474747);
+}
+
+.button {
+    border-radius: 5px;
+background: #FD6E0A;
+border: 0;
+
+font-size: 20px;
+color: var(--white-color, #FFF);
+padding: 18 px 30 px;
+font-weight: 700;
+}
