@@ -279,9 +279,29 @@ background: #FD6E0A;
 
 /* fotter style */
 
+.icon a {
+    margin-right: 35px;
+}
+
 footer {
     display: flex;
     background: #FFF8F3;
     padding: 130px 200px;
     margin-top: 100px;
+    gap: 100px;
+}
+
+.foot {
+    width: 50%;
+    
+}
+
+.data input, textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #FFFFFF;
+    border-radius: 5px;
+
+border: 0;
 }
